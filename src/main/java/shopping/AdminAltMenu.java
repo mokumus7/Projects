@@ -3,11 +3,11 @@ package shopping;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Admin  {
+public class AdminAltMenu {
 
     /*
     ADMİN
-1.Giris
+(1.Giris)
  1.1. Urun Tanımlama
  1.2. Urun Girisi
  1.3. Urun Listeleme
@@ -31,41 +31,61 @@ public class Admin  {
 
     static HashMap<String, String> adminListesi = new HashMap<>();
 
+    public static void adminAltMethod() throws UrunBulunamadiException {
+        System.out.println(kirmizi + "---------------#  ADMİN MENU #---------------");
 
-    public static void urunTanimlama() {
+        System.out.println(sari + "1. Urun Tanimlama\n" +
+                "2. Urun Giris\n" +
+                "3. Urun Listeleme\n" +
+                "4. Urun Arama\n" +
+                "5. Urun Silme\n" +
+                "6. Urun Guncelle\n" +
+                "7. Kayitli Musteriler Listesi\n" +
+                "8. Ciro\n" +
+                "9. Admin Sayfasi\n" +
+                "10. Cikis");
+
+        System.out.println(mor + "Yapmak istediginiz secimi giriniz :");
+        String secim = input.next();
+        switch (secim) {
+            case "1":
+                AdminAltMenuMethodlari.urunTanimlama();
+                break;
+            case "2":
+                AdminAltMenuMethodlari.urunGiris();
+                break;
+            case "3":
+                AdminAltMenuMethodlari.urunListeleme();
+                break;
+            case "4":
+                AdminAltMenuMethodlari.urunArama();
+                break;
+            case "5":
+                AdminAltMenuMethodlari.urunSilme();
+                break;
+            case "6":
+                AdminAltMenuMethodlari.urunGuncelle();
+                break;
+            case "7":
+                AdminAltMenuMethodlari.kayitliMusterilerListeleme();
+                break;
+            case "8":
+                AdminAltMenuMethodlari.ciro();
+                break;
+            case "9":
+                AdminAnaMenu.adminAnaMethod();
+                break;
+            case "10":
+                System.out.println(mavi + "Sayfamizi ziyaret ettiginzi icin tesekkur ederiz\n" +
+                        "Iyi gunler dileriz");
+                break;
+            default:
+                System.out.println(kirmizi + "Yanlis secim yaptiniz. Tekrar secim yapiniz.");
+                adminAltMethod();
+        }
+
 
     }
 
-    public static void urunGiris() {
-
-    }
-
-    public static void urunListeleme() {
-
-    }
-
-    public static void urunArama() {
-
-    }
-
-    public static void urunSilme() {
-
-    }
-
-    public static void urunGuncelle() {
-
-    }
-
-    public static void kayitliMusterilerListeleme() {
-
-    }
-
-    public static void ciro() {
-
-    }
-
-    public static void indirimBelirleme() {
-
-    }
 
 }

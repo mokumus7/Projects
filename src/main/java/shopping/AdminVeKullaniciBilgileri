@@ -1,0 +1,30 @@
+admin mail adrsi = admin123@gmail.com
+admin sifre= admin123
+admin gizli soru cevabi = ahmet (sifreimi unuttum icin, ilk okul ogretmeninizin adi)
+
+kullanicinin ilk once uye olmasi gerekir
+kullanici gizli soru cevabi = pamuk (ilk vcil hayvaninizin ismi)
+(her kullanici icin ayni soru gecerli. sonradan kullandigimiz icin kullanicilari icin ayri ayri tanimlamada
+gec kaldik. yoksa her kullanici icinde tanimlanibilirdi.)
+
+
+URUNLER
+Urun tanimlama
+id     adi    fiyat        bolum
+200----Seker----20,90------temelgida(bitisik yazalim lutfen)
+201----Tuz------18,75------temelgida
+202----Makarna--16,50------temelgida
+203----Salca----14,40------temelgida
+204----Ekmek----15,30------temelgida
+
+300----Domates-----9,90------manav
+301----muz---------17,50-----manav
+302----elma--------12,45-----manav
+303----mandalina---12,20-----manav
+
+400---peynir-------23,50-----sarkuteri
+401---kasar--------30,90-----sarkuteri
+402---sut----------21,20-----sarkuteri
+403---zeytin-------22,75-----sarkuteri
+
+

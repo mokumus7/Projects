@@ -1,0 +1,14 @@
+  /*
+     TASK :
+     *** yukarıdaki film listinde bulunan filmlerden herhangi birisini random olarak aliniz.
+
+      seçilen filmin  ismini filmin harf saysı kadar harf secme sansi veriniz. buldugu harfleri yerine yaziniz.
+      sağlayan method create ediniz...
+      Ahanda TRICK...
+      kullanıcının sectiği filmin harf sayısını  console yazdırınız.
+      kullanıcının sectiği film için tahmin hakkını  console yazdırınız.
+      kullanıcının her tahmininde kalan hak sayısını console yazdırınız.
+      kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
+      kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
+
+     */

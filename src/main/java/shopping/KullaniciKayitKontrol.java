@@ -2,7 +2,7 @@ package shopping;
 
 import java.util.Scanner;
 
-public class KayitKontrol {
+public class KullaniciKayitKontrol {
     public static final String kirmizi = "\u001B[31m";
     public static final String yesil = "\u001B[32m";
     public static final String sari = "\u001B[33m";
@@ -14,7 +14,7 @@ public class KayitKontrol {
     static Scanner scan = new Scanner(System.in);
 
 
-    public static void emailKontrol() {
+    public static void emailKontrol() throws UrunBulunamadiException {
         System.out.println(sari + "Email adresinizi giriniz");
         boolean durum = true;
         while (durum) {
@@ -31,9 +31,9 @@ public class KayitKontrol {
 
     }
 
-    public static void sifreKontrol(String email) {
+    public static void sifreKontrol(String email) throws UrunBulunamadiException {
         System.out.println(sari + "Sifre olusturunuz\n" +
-                "Sifre en az bir buyuk harf, en az bir kucuk harf ve en az bir rakam icermelidir ve 5 karekterli olmalidir. ");
+                "Sifre en az bir buyuk harf, en az bir kucuk harf ve en az bir rakam icermelidir.");
 
         boolean drm = true;
         while (drm) {
@@ -52,7 +52,7 @@ public class KayitKontrol {
         }
     }
 
-    public static void tamIsimVeTelefon(String email, String sifre) {
+    public static void tamIsimVeTelefon(String email, String sifre) throws UrunBulunamadiException {
         System.out.println(sari + "Isminizi giriniz");
         String tamIsim = scan.nextLine();
         System.out.println(sari + "Telefon numaranizi giriniz");
