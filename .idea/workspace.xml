@@ -4,43 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12c4be79-d6b2-432d-bc11-8223695c5451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/Calisma1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/Kullanici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calisma/ShowMessageDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filmsecimi/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filmsecimi/Task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/AdminAltMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/AdminAltMenuMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/AdminAnaMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/AdminAnaMenuMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/AdminVeKullaniciBilgileri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Anasayfa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Kasa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAltMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAltMenuMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAnaMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAnaMenuMethodlar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciBilgilerimiGuncelleMethodlar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciGirisKontrol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciKayitKontrol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Requirement document" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Sepet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/UrunBulunamadiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/UrunPojo.java" afterDir="false" />
+    <list default="true" id="12c4be79-d6b2-432d-bc11-8223695c5451" name="Changes" comment="son hali">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAltMenuMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shopping/KullaniciAltMenuMethodlari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +126,21 @@
       <option name="presentableId" value="Default" />
       <updated>1669195862629</updated>
     </task>
+    <task id="LOCAL-00001" summary="son hali">
+      <created>1669626307716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626307716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="son hali">
+      <created>1669626334704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626334704</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,5 +153,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="son hali." />
+    <MESSAGE value="son hali" />
+    <option name="LAST_COMMIT_MESSAGE" value="son hali" />
   </component>
 </project>

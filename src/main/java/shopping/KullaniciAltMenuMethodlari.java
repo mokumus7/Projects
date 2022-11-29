@@ -45,7 +45,7 @@ public class KullaniciAltMenuMethodlari {
         System.out.println(mavi + "Urun adeti seciniz");
         int adet = input.nextInt();
         double toplamTutar = UrunPojo.urunListesi.get(keyyyy).getFiyat() * adet;
-        String alinanUrun = adet + " adet " + UrunPojo.urunListesi.get(keyyyy);
+        String alinanUrun = adet + " adet " + UrunPojo.urunListesi.get(keyyyy).getUrunIsmi();//48. satira bu kod yazilacak.
         Sepet obje = new Sepet(alinanUrun, toplamTutar);
 
         Sepet.sepet.put(keyyyy, obje);
